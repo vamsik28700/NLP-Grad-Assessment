@@ -3,6 +3,7 @@ import torch
 from torch import nn
 
 # A simple LSTM structure defined
+# It is a smaller representation of the LSTM been done in the CRF which will be expanded as the project progresses.
 class SimLSTM(nn.Module):
 
     def __init__(self, vocab_size, nb_labels, emb_dim=10, hidden_dim=10):
